@@ -13,5 +13,5 @@ implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 - Fragment
 
 ## Screenshots
-<a href="Screenshots/list_user" title="list user" alt="list user"></a>
-<a href="Screenshots/list_repo" title="list repo" alt="list repo"></a>
+<a href="Screenshots/list_user.jpeg" title="list user" alt="list user"></a>
+<a href="Screenshots/list_repo,jpeg" title="list repo" alt="list repo"></a>
