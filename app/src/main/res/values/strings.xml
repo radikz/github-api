@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GithubAPI</string>
+    <string name="hello_word">Start Searching\nCoders Now!</string>
+    <string name="search_hint">Search for Coder</string>
+    <string name="favorites">favorites</string>
+    <string name="user">User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

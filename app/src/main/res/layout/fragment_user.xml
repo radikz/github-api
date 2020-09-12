@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFragment">
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/acticvity_two"
+        android:orientation="vertical"
+        android:paddingTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/search2"
+                android:layout_marginLeft="5dp"
+                android:background="#ffffff"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+            <EditText
+                android:id="@+id/edit_user"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/user"
+                android:singleLine="true"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+        <!--<ListView-->
+        <!--android:id="@+id/list_coder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:divider="@color/colorPrimary"-->
+        <!--android:dividerHeight="2dp"-->
+        <!--android:listSelector="#309fff">-->
+
+        <!--</ListView>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_user_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/user" />
+
+        <!--<ProgressBar-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
